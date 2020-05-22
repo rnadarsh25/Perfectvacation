@@ -1,0 +1,146 @@
+body{
+    background-color: whitesmoke;
+    background: url('../images/forest-2560x1440-mountains-sunset-river-hd-15667.jpg') fixed no-repeat;
+    background-size: cover;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(40px, auto);
+}
+
+#header{
+    grid-column: 1/5;
+}
+#header > h1{
+    color: #00cd66;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+#header > h1 > span{
+    color: white;
+    font-size: 25px;
+}
+#moto{
+    grid-column: 1/3;
+    text-align: center;
+    padding: 10% 30% 10% 30%;
+}
+#moto > h1{
+    font-size: 35px;
+    color: white;
+
+}
+#moto > h1 >span{
+    font-size: 60px;
+    color: #00cd66;
+}
+
+#login_div{
+    grid-column: 3/5;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(40px, auto);
+    width: 75%;
+}
+.signup_offer{
+    background: #00cd66;
+    padding: 7px 7px 7px 50px;
+    margin: 0px;
+    border: transparent;
+    align-self: end;
+}
+.signup_offer > h1{
+    font-size: 18px;
+    font-family: 'Turret Road', cursive;
+    margin: 0px;
+    color: white;
+    letter-spacing: 2px;
+}
+.login_detail{
+    padding: 7px 7px 7px 50px;
+    background: whitesmoke
+}
+.login_detail > h1{
+    font-family: 'Raleway', sans-serif;
+}
+
+.mobile_box{
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace; 
+    outline: none;
+    border: transparent;
+    margin: 5px 0px 5px 0px;
+}
+.role{
+    width: 72%;
+    height: 40px;
+    line-height: 40px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace; 
+    outline: none;
+    border: transparent;
+    margin: 5px 0px 5px 0px;
+}
+
+
+#verify_btn{
+    width: 72%;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background: #00cd66;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px 0px 10px 0px;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+}
+#verify_btn:hover{
+    cursor: pointer;
+}
+
+
+.span_div{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.opt{
+    align-self: start;
+    background-color: #00cd66;
+    padding: 7px;
+}
+.sign_opt{
+    border-left-style: none;
+    border-bottom-style: none;
+    border-right-style: none;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    background: #eee;
+}
+.agent{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px 10px 0px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 40px;
+}
+.admin{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px 10px 0px;
+    height: 50px;
+    line-height: 50px;
+}
+#legend{
+    margin-left: 40px;
+}

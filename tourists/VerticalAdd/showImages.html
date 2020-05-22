@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body onload="startSlide()">
+        <div id="container">
+            <img src="1.jpg" id="image" width="250px" height="150px"/>
+        </div>
+<!--
+        <button onclick="startSlide()">Start</button>
+        <button onclick="stopSlide()">Stop</button>
+-->
+
+
+        <script>
+            var intervalId;
+            var currentImageNumber;
+            function startSlide(){
+                intervalId = setInterval(setImages, 1000);
+            }
+            function stopSlide(){
+                clearInterval(intervalId);
+            }
+            function setImages(){
+                var imageSrc = document.getElementById("image").getAttribute('src');
+                currentImageNumber = imageSrc.substring(imageSrc.lastIndexOf("/")+1,imageSrc.lastIndexOf("/")+2);
+                if(currentImageNumber==3){
+                    currentImageNumber = 0;
+                }
+                document.getElementById("image").setAttribute('src', ""+(Number(currentImageNumber)+1)+".jpg");
+            }
+        </script>
+    </body>
+</html>

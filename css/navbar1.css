@@ -1,0 +1,22 @@
+#all > .nav{
+    text-align: center;
+}
+#all > .nav > a{
+    text-decoration: none;
+}
+#all > .nav > a> li{
+    list-style: none;
+    border-right: 1px solid white;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+#all > .nav > a> li:hover{
+    color: white;
+    background-color: darkgreen;
+    cursor: pointer;
+}

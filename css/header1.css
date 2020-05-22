@@ -1,0 +1,83 @@
+#heading >h1{
+    margin: 5px 0px 0px 0px;
+    color: #00cd66;
+    font-family: 'Prata', serif;
+}
+.logo{
+    width: 7%;
+    height: auto;
+}
+#para1{
+    /*font-family: 'Tangerine', cursive;*/
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    margin: -5px 0px 0px 0px;
+    color: darkgreen;
+    letter-spacing: 4px;
+
+}
+
+#login{
+    display: grid;
+    justify-items: end;
+}
+#login ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#login ul li
+{
+    text-align: center;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    line-height:30px;
+    margin-right: 0px;
+    background: transparent; /*#fc4445;/*#e5e4d7;*/
+    
+}
+
+#login ul li a
+{
+    text-decoration: none;
+    color:darkgreen;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+}
+
+#login ul li a:hover
+{
+    color:darkgreen;
+}
+#login ul li ul li
+{
+    display:none;
+}
+#login ul li:hover ul li
+{
+    display: block;
+    color:darkgreen;
+}
+
+
+#login > a >.login_btn{
+    height: 97px;
+    line-height: 97px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: darkgreen;
+    background: transparent;
+    border: transparent;
+    outline: none;
+}
+#login > a >.login_btn:hover{
+    background: darkgreen;
+    color: white;
+    cursor: pointer;
+}
