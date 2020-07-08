@@ -3,3 +3,13 @@ A tourism site. Idea was to provide an user friendly interface and smooth driven
 Also it is featured with admin panel to control whole website single handly.
 
 Use perfectvacation.sql database attached above.
+
+#Technologies Used
+Front-end:
+ HTML
+ CSS
+ Javascript
+Back-end
+ PHP
+Database
+ mysql​
