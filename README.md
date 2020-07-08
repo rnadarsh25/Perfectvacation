@@ -4,7 +4,7 @@ Also it is featured with admin panel to control whole website single handly.
 
 Use perfectvacation.sql database attached above.
 
-#Technologies Used
+# Technologies Used
 Front-end:
  HTML
  CSS
