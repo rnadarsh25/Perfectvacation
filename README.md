@@ -6,10 +6,13 @@ Use perfectvacation.sql database attached above.
 
 # Technologies Used
 Front-end:
- HTML
- CSS
- Javascript
-Back-end
- PHP
-Database
- mysql​
+  Html
+  CSS
+  JavaScript
+  
+Back-End:
+  PHP
+  
+Database:
+  MySql
+ 
